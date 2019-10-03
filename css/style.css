@@ -1,0 +1,156 @@
+body {
+  background: blanchedalmond;
+}
+.site-wrapper {
+  width: 1200px;
+  margin-left: 120px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  background: white;
+}
+.site-header,
+.slider {
+  background-color: #eeeeee;
+  display: flex;
+}
+.slider-button {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin: 49px;
+}
+header menu {
+  margin: 80px;
+  font-weight: bold;
+}
+header menu li {
+  display: inline;
+  margin-right: 45px;
+}
+.bascet {
+  margin-right: 0;
+  margin-left: 45px;
+}
+.bascet::before {
+  content: url(cart-icon.png);
+}
+
+.works-flex-container {
+  display: flex;
+  /* background-color: lightcyan; */
+}
+.works {
+  padding: 50px;
+}
+.works h2 {
+  font-size: 24px;
+}
+.works p {
+  padding-bottom: 14px;
+}
+
+.works button {
+  margin-left: 0;
+}
+.company-info-container {
+  display: flex;
+  /* background-color: lightgoldenrodyellow; */
+}
+.company-info {
+  margin-left: 50px;
+}
+.partners {
+  /* background-color: lightseagreen; */
+  /* height: 180px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+.partners-logo {
+  padding-right: 90px;
+}
+
+.map {
+  height: 420px;
+  background-image: url(map.png);
+}
+
+.map-info {
+  display: inline-block;
+
+  width: 320px;
+  height: 308px;
+  margin-top: 55px;
+  margin-left: 140px;
+  text-align: left;
+  background: white;
+}
+.map-info h3 {
+  padding-top: 55px;
+}
+.map-info p {
+  margin-left: 80px;
+}
+.map-marker {
+  position: relative;
+  left: 680px;
+  bottom: 220px;
+}
+
+.partners-logo {
+  opacity: 0.6;
+}
+.partners-logo:hover {
+  opacity: 1;
+}
+.partners-logo:active {
+  opacity: 0.3;
+}
+.logo {
+  opacity: 1;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: grey;
+}
+footer {
+  height: 155px;
+  /* background: red; */
+  padding-top: 60px;
+}
+.footer-logo {
+  margin-left: 140px;
+}
+.footer-logo-img {
+  margin-right: 20px;
+}
+
+footer p {
+  display: inline-block;
+}
+footer b {
+  font-size: 36px;
+}
+
+.tr-upper {
+  font-size: 45px;
+  font-weight: bold;
+}
+.company-info h3 {
+  margin-left: 0;
+}

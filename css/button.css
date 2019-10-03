@@ -1,0 +1,33 @@
+button {
+  color: white;
+  height: 50px;
+  width: 160px;
+  border-radius: 6px;
+}
+.button-red {
+  background-color: #fb565a;
+}
+.button-red:hover {
+  background-color: #e74246;
+}
+.button-red:active {
+  background-color: #d7373b;
+}
+.button-green {
+  background-color: #00ca74;
+}
+.button-green:hover {
+  background-color: #00bc6c;
+}
+.button-green:active {
+  background-color: #00aa62;
+}
+.button-yellow {
+  background-color: #efc84a;
+}
+.button-yellow:hover {
+  background-color: #eab534;
+}
+.button-yellow:active {
+  background-color: #e5a722;
+}
