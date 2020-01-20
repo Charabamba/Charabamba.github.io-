@@ -1,9 +1,7 @@
-body {
-  background: blanchedalmond;
-}
+
 .site-wrapper {
   width: 1200px;
-  margin-left: 120px;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   color: #000000;
   background: white;
